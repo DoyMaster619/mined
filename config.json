@@ -1,0 +1,47 @@
+{
+
+ "Account": {
+"Username": "username",
+     "Password": "pasword"
+     },
+ "Target Profit": "9993",
+ "Target Win": "9999999",
+ "Lose Target": "0",
+ "Reset If Target Profit": "",
+ "Reset If Target Win": "",
+ "Interval": "9999999999",
+ "Config": [{
+
+     "Name Bet Set": "VPS betset",
+     "Base Bet": "0.01",
+     "Max Bet": "OFF",
+     "Chance": "5",
+     "Random Chance": {
+          "Toggle": "ON",
+          "Min": "48",
+          "Max": "50"
+        },
+     "Bet": {
+          "Bet": "Hi",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose": "4",
+              "If Win": "3"
+            }
+        },
+     "If Win": "1",
+     "If Lose": "1.8",
+     "Reset If Win": "1",
+     "Reset If Profit": "0.00000001",
+     "Interval": "1"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "ON",
+       "If Balance": "51",
+       "Wallet Address":   "DMMppfKYi3fMV52UiRmWQxnFPySBB44ttU",
+       "Amount": "51"
+      },
+  "User-Agent": "Android Phone / Chrome 65 [Mobile]:Mozilla/511.0 (Linux; Android 81.0; BLA-L29 Build/HUAWEIBLA-L29) AppleWebKit/5399887.36 (KHTML, like Gecko) Chrome/632.0.3236.6 Mobile Safari/56637.36"
+
+}
